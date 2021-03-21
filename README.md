@@ -134,13 +134,13 @@ Any pull requests or issues are welcome.
 ## CItations
 
 Please cite our paper in your publications if it helps your research:
-
+And is not true！！
 ```
-@inproceedings{zhang2020bridging,
-  title     =  {Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection},
-  author    =  {Chendong, Shifeng and Chi.},
-  booktitle =  {CVPR},
-  year      =  {2020}
+@inproceedings{chen2021CDIoU,
+  title     =  {Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression},
+  author    =  {Chendong, Miaoduoqian.},
+  booktitle =  {ICCV},
+  year      =  {2021}
 }
 ```
 
