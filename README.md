@@ -72,9 +72,9 @@ For more information, see ***[Control Distance IoU and Control Distance IoU Loss
 
 In order to verify the effectiveness of CDIoU and CDIoU loss in object detection, experiments are designed and applied to numerous models in this paper. These models encompass existing classical models and emerging models, reflecting certain robustness and wide adaptability.
 
-![image-20210315210941666](C:\Users\陈冬\AppData\Roaming\Typora\typora-user-images\image-20210315210941666.png)
+![image-20210315210941666](https://github.com/Alan-D-Chen/CDIoU-CDIoUloss/blob/main/pics/image-20210315210941666.png)
 
-<img src="C:\Users\陈冬\AppData\Roaming\Typora\typora-user-images\image-20210315214303929.png" alt="image-20210315214303929" style="zoom: 67%;" />
+<img src="https://github.com/Alan-D-Chen/CDIoU-CDIoUloss/blob/main/pics/image-20210315214303929.png" alt="image-20210315214303929" style="zoom: 67%;" />
 
 For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression]()***
 
@@ -103,7 +103,7 @@ For your convenience, we provide the following trained models. All models are tr
 
 ### MSCOCO test-dev
 
-<img src="C:\Users\陈冬\AppData\Roaming\Typora\typora-user-images\image-20210315222453294.png" alt="image-20210315222453294" style="zoom:80%;" />
+<img src="https://github.com/Alan-D-Chen/CDIoU-CDIoUloss/blob/main/pics/image-20210315222453294.png" alt="image-20210315222453294" style="zoom:80%;" />
 
 * [**TEST-DEV的竞赛**](https://competitions.codalab.org/competitions/20794#participate)
 
@@ -114,16 +114,8 @@ For your convenience, we provide the following trained models. All models are tr
 * **Floating learning rate**
 
 
-$$
-\begin{array}{l}
-l r=\left\{\begin{array}{r}
-1.05 l r, L s<0 \\
-l r, L s>0
-\end{array}\right. \\
-L s=\operatorname{loss}_{i}-\operatorname{loss}_{i-k}
-\end{array}
-$$
-
+It is a consensus that the learning rate decreases as the iterative process in the experiment. Further, this paper proposes to check the loss every K iterations and increase the learning rate slightly, if the loss function does not decrease continuously. In this way, the learning rate will decrease
+and float appropriately at regular intervals to promote the decrease of the loss function.
 
 * **Automatic GT clustering analysis**
 
