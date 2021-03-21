@@ -60,9 +60,9 @@ ATSS bridges the gap between anchor-based and anchor-free detection via adaptive
 
 
 
-<img src="F:\博士阶段论文\博士论文第二篇\ICCV2021\iccv2021AuthorKit2\iccv2021AuthorKit\LaTeX - 副本\pics\CDIoU.png" alt="CDIoU" style="zoom: 25%;" />
+<img src="https://github.com/Alan-D-Chen/CDIoU-CDIoUloss/blob/main/pics/CDIoU.png" alt="CDIoU" style="zoom: 25%;" />
 
-<img src="F:\博士阶段论文\博士论文第二篇\ICCV2021\iccv2021AuthorKit2\iccv2021AuthorKit\LaTeX - 副本\pics\turning.png" alt="Turning" style="zoom:25%;" />
+<img src="https://github.com/Alan-D-Chen/CDIoU-CDIoUloss/blob/main/pics/turning.png" alt="Turning" style="zoom:25%;" />
 
 For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression]()***
 
