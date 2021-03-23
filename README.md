@@ -135,6 +135,8 @@ Any pull requests or issues are welcome.
 
 Please cite our paper in your publications if it helps your research:
 And is not true！！
+
+<_>This reference stuff is for fun only！！！！！！！！！
 ```
 @inproceedings{chen2021CDIoU,
   title     =  {Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression},
