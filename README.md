@@ -38,7 +38,7 @@ We propose Control Distance IoU and Control Distance IoU Loss Function (**CDIoU*
 
 * **DIoU loss and CIoU Loss**
 
-For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression]()***
+For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression](https://arxiv.org/abs/2103.11696)***
 
 
 
@@ -64,7 +64,7 @@ ATSS bridges the gap between anchor-based and anchor-free detection via adaptive
 
 <img src="https://github.com/Alan-D-Chen/CDIoU-CDIoUloss/blob/main/pics/turning.png" alt="Turning" style="zoom:25%;" />
 
-For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression]()***
+For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression](https://arxiv.org/abs/2103.11696)***
 
 
 
@@ -76,7 +76,7 @@ In order to verify the effectiveness of CDIoU and CDIoU loss in object detection
 
 <img src="https://github.com/Alan-D-Chen/CDIoU-CDIoUloss/blob/main/pics/image-20210315214303929.png" alt="image-20210315214303929" style="zoom: 67%;" />
 
-For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression]()***
+For more information, see ***[Control Distance IoU and Control Distance IoU Loss Function for Better Bounding Box Regression](https://arxiv.org/abs/2103.11696)***
 
 ## Models
 
