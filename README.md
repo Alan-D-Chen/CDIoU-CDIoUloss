@@ -84,14 +84,14 @@ For your convenience, we provide the following trained models. All models are tr
 
 
 
-| Model                                | Multi-scale |      |      | AP (val) | AP (test-dev) | pth  |
+| Model                                | Multi-scale | evaluation system | feedback mechanism | AP (val) | AP (test-dev) | pth  |
 | :---:                                | :---------: | ---- | ---- | :------: | :-----------: | :--: |
-|   ATSS R 50 FPN 1x + CDIoU & loss    |      NO     |      |      |    39.5  |   39.4        |[ATSS R 50 FPN 1x + CDIoU & loss](https://pan.baidu.com/s/1QkwtopWpfhtMyROhxFWsEA)    |
-| ATSS dcnv2 R 50 FPN 1x + CDIoU & loss |     NO     |      |      |  43.1    |    43.1       | [ATSS dcnv2 R 50 FPN 1x + CDIoU & loss](https://pan.baidu.com/s/11AYPJ1pi_cLtocBYX1wQPg)     |
-|ATSS dcnv2 R 101 FPN 2x + CDIoU & loss |    NO      |      |      |   46.3  |    46.4       |   [ATSS dcnv2 R 101 FPN 2x + CDIoU & loss](https://pan.baidu.com/s/1sXZqW4_Fi8dHwRAaBxjGrA)   |
-|ATSS X 101 32x8d FPN 2x + CDIoU & loss |     NO     |      |      |    45.1 |      45.2    | [ATSS X 101 32x8d FPN 2x + CDIoU & loss](https://pan.baidu.com/s/1hzBLH8lh02iilQODZabM6w)     |
-|ATSS dcnv2 X 101 32x8d FPN 2x + CDIoU & loss|   NO   |     |         |  48.1  |      47.9     |  [ATSS dcnv2 X 101 32x8d FPN 2x + CDIoU & loss](https://pan.baidu.com/s/1ARbPzb7RoZqhDrCnDAsiSA)|
-|ATSS dcnv2 X 101 32x8d FPN 2x(MS) + CDIoU & loss|  YES  |    |     |   50.9  | 50.7         | [ATSS dcnv2 X 101 32x8d FPN 2x(MS) + CDIoU & loss](https://pan.baidu.com/s/1ARbPzb7RoZqhDrCnDAsiSA)|
+|   ATSS R 50 FPN 1x + CDIoU & loss    |      NO     |  CDIoU    |  CDIoU loss    |    39.5  |   39.4        |[ATSS R 50 FPN 1x + CDIoU & loss](https://pan.baidu.com/s/1QkwtopWpfhtMyROhxFWsEA)    |
+| ATSS dcnv2 R 50 FPN 1x + CDIoU & loss |     NO     |   CDIoU   |   CDIoU loss   |  43.1    |    43.1       | [ATSS dcnv2 R 50 FPN 1x + CDIoU & loss](https://pan.baidu.com/s/11AYPJ1pi_cLtocBYX1wQPg)     |
+|ATSS dcnv2 R 101 FPN 2x + CDIoU & loss |    NO      |   CDIoU   |   CDIoU loss   |   46.3  |    46.4       |   [ATSS dcnv2 R 101 FPN 2x + CDIoU & loss](https://pan.baidu.com/s/1sXZqW4_Fi8dHwRAaBxjGrA)   |
+|ATSS X 101 32x8d FPN 2x + CDIoU & loss |     NO     |   CDIoU   |  CDIoU loss    |    45.1 |      45.2    | [ATSS X 101 32x8d FPN 2x + CDIoU & loss](https://pan.baidu.com/s/1hzBLH8lh02iilQODZabM6w)     |
+|ATSS dcnv2 X 101 32x8d FPN 2x + CDIoU & loss|   NO   |  CDIoU   |    CDIoU loss     |  48.1  |      47.9     |  [ATSS dcnv2 X 101 32x8d FPN 2x + CDIoU & loss](https://pan.baidu.com/s/1ARbPzb7RoZqhDrCnDAsiSA)|
+|ATSS dcnv2 X 101 32x8d FPN 2x(MS) + CDIoU & loss|  YES  |  CDIoU  |  CDIoU loss   |   50.9  | 50.7         | [ATSS dcnv2 X 101 32x8d FPN 2x(MS) + CDIoU & loss](https://pan.baidu.com/s/1ARbPzb7RoZqhDrCnDAsiSA)|
 
 [1] *The testing time is taken from [FCOS](https://github.com/tianzhi0549/FCOS), because our method only redefines positive and negative training samples without incurring any additional overhead.*
 [2] *1x and 2x mean the model is trained for 90K and 180K iterations, respectively.*
